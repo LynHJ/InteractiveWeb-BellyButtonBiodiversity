@@ -5,7 +5,7 @@
 
 The task is using my new skill <b>JaveScript</b> to display a dashboard about an experiment of Belly Button Biodiversity.The dataset I am going to use is a json file within a provided url. 
  
-This dashboard has four parts. Each parts utilise different types of chart to highlight the structure of datasets.First part is a dropdown-menu which gives us a view of how many participants participated in that experiment. Second part is a participants' details. let's move on to the third part,'Gauge Plot'. It indicates the frequency of a participant wash their body which can let us easily campare each others when we do the selections. And the last part is a bubble chart.I use each bacterias' amount as markers' size. It visualise the quantity variance among them.
+This dashboard has four parts. Each part utilises different types of chart to highlight the structure of datasets.First part is a dropdown-menu which gives us a view of how many participants participated in that experiment. Second part is the participants' details. Let's move on to the third part,'Gauge Plot'. It indicates the frequency of a participant washing their body which can let us easily compare each other when we do the selections. And the last part is a bubble chart.I use each bacterias' amount as markers' size. It visualises the quantity variance among them.
 
 ## Source
 
@@ -15,8 +15,14 @@ Belly Button Biodiversity dataset(http://robdunnlab.com/projects/belly-button-bi
 
 
 
-##### Summary:  
+## Dashboard:  
+
 ![alt text](https://github.com/LynHJ/Interactive-WebVisualisations/blob/2fae0b27c3e7de8ab68d6040b93d91fefafb71ba/OutputData/DashBoard.png)
+
+##### Summary: 
+
+This dashboard does visualise the details of each participant from individual details. The results of bacteria vary between each persons. Unfortunately, I could not observe the relation between individual washing frequency, bacteria types, and amount of bacteria. Besides that, it is good practice for me to have the ability to produce a dashboard without using PowerBI or Tableau.
+
 
 
 ## Content:
@@ -39,7 +45,6 @@ Project
 
 
 ```
-
 
 
 ## Reference
