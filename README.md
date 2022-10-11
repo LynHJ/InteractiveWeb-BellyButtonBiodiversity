@@ -16,7 +16,7 @@ Belly Button Biodiversity dataset(http://robdunnlab.com/projects/belly-button-bi
 
 ## Dashboard:  
 
-![alt text](https://github.com/LynHJ/Interactive-WebVisualisations/blob/2fae0b27c3e7de8ab68d6040b93d91fefafb71ba/OutputData/DashBoard.png)
+![alt text](https://github.com/LynHJ/Interactive-WebVisualisations/blob/4fbcbac18febfe5cd0de51673d7274ba7d4e211f/OutputData/image.png)
 
 ##### Summary: 
 
