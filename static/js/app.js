@@ -1,10 +1,11 @@
 //  Target url
 
-const url = "https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json"
+let jsonUrl = "https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json"
 
+let outputUrl = '../../OutputData'
 // Read data from json url
 
-d3.json(url).then(function (data) {
+d3.json(jsonUrl).then(function (data) {
 
     //Create and append select list
 
@@ -26,7 +27,7 @@ function init(){
 
     // Read json file
 
-    d3.json(url).then(function (data) {
+    d3.json(jsonUrl).then(function (data) {
     
         index = 0 ;
         
@@ -52,9 +53,11 @@ function init(){
             t: 1}
           };
        
-        Plotly.newPlot("bar",traceDataBar,layoutBar);
+        Plotly.newPlot("bar",traceDataBar,layoutBar)
+    
 
-
+        // //////////////////////////////////////////////////////////////////////////////////////////////
+          
         // Display Ids'details
 
         document.getElementById("sample-metadata").innerHTML ='';
@@ -69,8 +72,8 @@ function init(){
             
             document.getElementById("sample-metadata").innerHTML += idDetail;}
 
+        // //////////////////////////////////////////////////////////////////////////////////////////////
 
-       
         // Use Plotly to plot a bubble plot
 
         traceBubble= {
@@ -107,6 +110,8 @@ function init(){
         
         Plotly.newPlot("bubble",traceDataBubble,layoutBubble);  
 
+        
+        // //////////////////////////////////////////////////////////////////////////////////////////////
 
         // Use Plotly to plot a Donut plot
 
@@ -150,10 +155,10 @@ function init(){
                     line: {color: 'black',width: 3}
             }],
             
-            title: 'Belly Button Washing Frequncy',
+            title: '<b>Belly Button Washing Frequncy</b> <br> Scrub per Week',
 
             font: {
-                size: 20,
+                size: 18,
                 fontWeight:"bold"
             },
 
@@ -162,6 +167,9 @@ function init(){
             width: 500,
 
             hovermode: false,
+
+            annotation:'kkk'
+    
 
         }; 
         
@@ -182,7 +190,7 @@ init();
 
 function optionChanged(id){
 
-    d3.json(url).then(function (data) {
+    d3.json(jsonUrl).then(function (data) {
     
         // Taget index of id to source the data
 
@@ -197,6 +205,9 @@ function optionChanged(id){
                 type: "bar",
                 orientation: "h"
         };
+
+
+        // //////////////////////////////////////////////////////////////////////////////////////////////
 
         // Display Ids'details
 
@@ -229,12 +240,14 @@ function optionChanged(id){
 
         for (let i = 0; i < keys.length; i++) {
             
-            let idDetail= `<h6>${keys[i].charAt(0).toUpperCase()+ keys[i].slice(1)}: ${values[i]}</h6>`;
+            let idDetail= `<h5>${keys[i].charAt(0).toUpperCase()+ keys[i].slice(1)}: ${values[i]}</h5>`;
             
             document.getElementById("sample-metadata").innerHTML += idDetail;}
 
 
        
+        // //////////////////////////////////////////////////////////////////////////////////////////////
+
         // Use Plotly to plot a bubble plot
 
         traceBubble= {
@@ -273,6 +286,8 @@ function optionChanged(id){
         Plotly.newPlot("bubble",traceDataBubble,layoutBubble);  
 
 
+        // //////////////////////////////////////////////////////////////////////////////////////////////
+
         // Use Plotly to plot a Donut plot
 
         var traceDonut = {
@@ -298,7 +313,7 @@ function optionChanged(id){
 
         let indicator = data['metadata'][index]['wfreq'];
 
-        var radius = 0.3;
+        var radius = 0.2;
 
         var radians = 0.175+0.349*indicator;
 
@@ -318,10 +333,10 @@ function optionChanged(id){
             }],
             
 
-            title: 'Belly Button Washing Frequncy',
+            title: '<b>Belly Button Washing Frequncy</b> <br> Scrub per Week',
 
             font: {
-                size: 20,
+                size: 18,
                 fontWeight:"bold"
             },
 
