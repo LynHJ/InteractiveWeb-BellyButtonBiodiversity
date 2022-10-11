@@ -10,13 +10,13 @@ This dashboard has four parts. Each part utilises different types of chart to hi
 ## Source
 
 Belly Button Biodiversity dataset(http://robdunnlab.com/projects/belly-button-biodiversity/)   
-![alt text](https://github.com/LynHJ/Interactive-WebVisualisations/blob/2fae0b27c3e7de8ab68d6040b93d91fefafb71ba/OutputData/image.png)  
+![alt text](https://github.com/LynHJ/Interactive-WebVisualisations/blob/38be06642b19290d503e2c9a2b0158c72c209b49/OutputData/image.png)  
 
 
 
 ## Dashboard:  
 
-![alt text](https://github.com/LynHJ/Interactive-WebVisualisations/blob/38be06642b19290d503e2c9a2b0158c72c209b49/OutputData/image.png)
+![alt text](https://github.com/LynHJ/Interactive-WebVisualisations/blob/7167484a6e62962ba06e5b55d3ee4c462096157f/OutputData/DashBoard.png)
 
 ##### Summary: 
 
