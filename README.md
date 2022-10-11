@@ -14,7 +14,6 @@ Belly Button Biodiversity dataset(http://robdunnlab.com/projects/belly-button-bi
 
 
 
-
 ## Dashboard:  
 
 ![alt text](https://github.com/LynHJ/Interactive-WebVisualisations/blob/2fae0b27c3e7de8ab68d6040b93d91fefafb71ba/OutputData/DashBoard.png)
@@ -22,8 +21,6 @@ Belly Button Biodiversity dataset(http://robdunnlab.com/projects/belly-button-bi
 ##### Summary: 
 
 This dashboard does visualise the details of each participant from individual details. The results of bacteria vary between each persons. Unfortunately, I could not observe the relation between individual washing frequency, bacteria types, and amount of bacteria. Besides that, it is good practice for me to have the ability to produce a dashboard without using PowerBI or Tableau.
-
-
 
 ## Content:
 ```
@@ -42,13 +39,12 @@ Project
 ├── static
     └── js
        └── app.js
-
-
 ```
 
 
 ## Reference
-1. https://observablehq.com/@arronhunt/building-a-gauge-meter-with-plotly
+
+1. https://observablehq.com/@arronhunt/building-a-gauge-meter-with-plotly  
 2. http://robdunnlab.com/projects/belly-button-biodiversity/
 
 
