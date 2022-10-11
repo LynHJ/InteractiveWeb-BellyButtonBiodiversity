@@ -1,5 +1,8 @@
 # Belly Button Biodiversity
 
+## GitHub Page
+https://lynhj.github.io/InteractiveWeb-BellyButtonBiodiversity/  
+
 
 ## Background
 
