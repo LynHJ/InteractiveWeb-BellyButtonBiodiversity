@@ -3,20 +3,20 @@
 
 ## Background
 
-The topic of migrating to Mars is getting hot.Elon Musk's projects like SpaceX, Starlink,Mars migration program,etc.Each porject he have launched brings hope to human society. I am also very interesting on exlporing Universe. Mars perhape is our next destination to continute next human generations.  
+The task is using my new skill <b>JaveScript</b> to display a dashboard about an experiment of Belly Button Biodiversity.The dataset I am going to use is a json file within a provided url. 
  
-This project has two parts. First part is scraping news from 'https://redplanetscience.com ' and storing data in MongoDB and as a json file. Second part is also using scraping skill to retrieve weather data from another website. Then based on the dataset, I will perform some simple data analsis.  
+This dashboard has four parts. Each parts utilise different types of chart to highlight the structure of datasets.First part is a dropdown-menu which gives us a view of how many participants participated in that experiment. Second part is a participants' details. let's move on to the third part,'Gauge Plot'. It indicates the frequency of a participant wash their body which can let us easily campare each others when we do the selections. And the last part is a bubble chart.I use each bacterias' amount as markers' size. It visualise the quantity variance among them.
 
 ## Source
 
 Belly Button Biodiversity dataset(http://robdunnlab.com/projects/belly-button-biodiversity/)   
-![alt text]()  
+![alt text](https://github.com/LynHJ/Interactive-WebVisualisations/blob/2fae0b27c3e7de8ab68d6040b93d91fefafb71ba/OutputData/image.png)  
 
 
 
 
 ##### Summary:  
-
+![alt text](https://github.com/LynHJ/Interactive-WebVisualisations/blob/2fae0b27c3e7de8ab68d6040b93d91fefafb71ba/OutputData/DashBoard.png)
 
 
 ## Content:
