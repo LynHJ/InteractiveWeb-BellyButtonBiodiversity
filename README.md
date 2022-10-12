@@ -8,7 +8,7 @@ https://lynhj.github.io/InteractiveWeb-BellyButtonBiodiversity/
 
 The task is using my new skill <b>JaveScript</b> to display a dashboard about an experiment of Belly Button Biodiversity.The dataset I am going to use is a json file within a provided url. 
  
-This dashboard has four parts. Each part utilises different types of chart to highlight the structure of datasets.First part is a dropdown-menu which gives us a view of how many participants participated in that experiment. Second part is the participants' details. Let's move on to the third part,'Gauge Plot'. It indicates the frequency of a participant washing their body which can let us easily compare each other when we do the selections. And the last part is a bubble chart.I use each bacterias' amount as markers' size. It visualises the quantity variance among them.
+This dashboard has four parts. Each part utilises different types of chart to highlight the structure of datasets.First part is a dropdown-menu which gives us a view of how many participants participate in that experiment. Second part is the participants' details. Let's move on to the third part,'Gauge Plot'. It indicates the frequency of a participant washing their body which can let us easily compare each other when we do the selections. And the last part is a bubble chart.I use each bacterias' amount as markers' size. It visualises the quantity variance among them.
 
 ## Source
 
