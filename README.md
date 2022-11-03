@@ -1,5 +1,10 @@
 # Belly Button Biodiversity
 
+![](https://img.shields.io/badge/html-informational?style=plastic&logo=appveyor)
+![](https://img.shields.io/badge/JavaScript-informational?style=plastic&logo=appveyor)
+![](https://img.shields.io/badge/plotly-informational?style=plastic&logo=appveyor)
+![](https://img.shields.io/badge/dashboard-informational?style=plastic&logo=appveyor)
+
 ## GitHub Page
 https://lynhj.github.io/InteractiveWeb-BellyButtonBiodiversity/  
 
